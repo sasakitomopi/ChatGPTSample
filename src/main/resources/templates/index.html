@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>OpenAI Chat Bot</title>
+<link th:href="@{/css/layout.css}" rel="styleSheet">
+<script th:src="@{/js/chatgpt.js}"></script>
+</head>
+<body>
+	<div class="chat-input-area">
+		<input type="text" id="input-field"/>
+		<input type="button" value="送信" id="send-button">
+	</div>
+	<div class="chat-response-area">
+	</div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+</html>
